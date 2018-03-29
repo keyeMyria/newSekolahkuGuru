@@ -83,26 +83,28 @@ const styles = StyleSheet.create({
 	},
 	sections: {
 		flexDirection: 'row',
-		justifyContent: 'space-between',
-		marginTop: 10,
+		justifyContent: 'space-around',
+		marginTop: 20,
 		marginHorizontal: 20
 	},
 	sectionItem: {
-		width: (width / 2 - 40),
-		height: width / 3,
+		width: width / 4,
+		height: width / 4,
 		borderRadius: 10,
 		justifyContent: 'space-around',
 		alignItems: 'center',
 		paddingVertical: 10,
+		paddingHorizontal: 5,
 		borderWidth: 1
 	},
 	sectionItemText: {
 		textAlign: 'center',
-		fontSize: 16,
+		fontSize: 12,
+		fontWeight: 'bold',
 		color: 'white'
 	},
 	detailButton: {
-		marginTop: 20,
+		marginTop: 30,
 		marginBottom: 10,
 		paddingVertical: 10,
 		paddingHorizontal: 40,
@@ -113,7 +115,8 @@ const styles = StyleSheet.create({
 	},
 	noteText: {
 		color: '#000',
-		textAlign: 'center'
+		textAlign: 'center',
+		fontSize: 12
 	}
 });
 
